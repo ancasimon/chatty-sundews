@@ -15,6 +15,8 @@ const displayAllMessages = () => {
     const giph = giphyJs.getGiphyImageArray();
     const loggedUser = addBrandNewMessage.selectedRadio();
     console.error('here', giph.url);
+    // Anca S: added a div with flex classes to make the messages responsive:
+    domString += '<div class="d-flex flex-wrap m-2">';
     domString += `<div id="${message.messageId}" class="messageCard card mb-3">`;
     // Anca S: Added conditional statement to display the Delete button only if the user logged in - aka selected radio button - is the same as the user on the message:
     if (loggedUser === message.id) {
@@ -29,11 +31,12 @@ const displayAllMessages = () => {
     } else {
       domString += '';
     }
-    domString += `<p class="messageText text-center card-text">${message.text}</p>
-              <p class="timestamp"><small>${message.timestamp}</small></p>
-          </div>
-      </div>
-    </div>`;
+    domString += `<p class="messageText text-center card-text">${message.text}</p>`;
+    domString += `<p class="timestamp"><small>${message.timestamp}</small></p>`;
+    domString += '</div>';
+    domString += '</div>';
+    domString += '</div>';
+    domString += '</div>';
   });
   utilities.printToDom('message-container', domString);
 };

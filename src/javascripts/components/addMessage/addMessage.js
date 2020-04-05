@@ -1,5 +1,6 @@
 import moment from 'moment';
 import messageData from '../../helpers/data/messageData';
+// eslint-disable-next-line import/no-cycle
 import displayMessage from '../displayMessage/displayMessage';
 
 const selectedRadio = () => {
