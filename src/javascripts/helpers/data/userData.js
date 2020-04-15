@@ -2,29 +2,29 @@ const users = [
   {
     id: 'user1',
     name: 'Zoe',
-    imgUrl: 'src/sundews-img/zoe.jpg',
+    imgUrl: 'https://tinyurl.com/tm88t2s',
   },
   {
     id: 'user2',
     name: 'Luke',
-    imgUrl: 'src/sundews-img/luke.jpg',
+    imgUrl: 'https://tinyurl.com/sx8muqc',
   },
   {
     id: 'user3',
     name: 'Mary',
-    imgUrl: 'src/sundews-img/mary.png',
+    imgUrl: 'https://tinyurl.com/ta5v2c5',
   },
 
   {
     id: 'user4',
     name: 'Greg',
-    imgUrl: 'src/sundews-img/greg.jpg',
+    imgUrl: 'https://tinyurl.com/sb6xy97',
   },
 
   {
     id: 'user5',
     name: 'John',
-    imgUrl: 'src/sundews-img/john.jpg',
+    imgUrl: 'https://tinyurl.com/tt9jdah',
 
   },
 ];

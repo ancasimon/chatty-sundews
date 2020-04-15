@@ -24,7 +24,7 @@ const loadNavbar = () => {
   let domString = '';
   domString += '<nav class="navbar-custom fixed-top navbar-light bg-light">';
   domString += '  <div class="flex flex-wrap">';
-  domString += '    <img src="src/sundews-img/sundew-smoozer.png" class="" alt="Sundew Smoozers">';
+  domString += '    <img src="https://tinyurl.com/sfpscsm" class="" alt="Sundew Smoozers">';
   domString += '  </div>';
   domString += '<div class="container align-content-center">';
   domString += `  <div class="user-display mb-0 pb-0 radio-users">${radioButtons()}`;

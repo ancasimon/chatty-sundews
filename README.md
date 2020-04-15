@@ -10,6 +10,8 @@ My contributions to this project included:
 * Validating that there is text so that blank messages do not get added to the conversation by mistake
 * Adding the modal that gives users the ability to change the color of the font and page display
 * Adding a Clear button to quickly delete all current messages
+* Making message cards responsive
+* Filtering access to deleting individual messages so that users can delete only the messages of their selected user
 
 ## Screenshots
 
