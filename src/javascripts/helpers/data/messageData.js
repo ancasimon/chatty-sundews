@@ -37,8 +37,6 @@ let messages = [
   },
 ];
 
-const gifsArray = [];
-
 const setUpdatedMessageArray = (newMessageObject) => {
   messages.push(newMessageObject);
 };
@@ -53,8 +51,6 @@ const emptyMessages = () => {
   messages = [];
 };
 
-const getGifsArray = () => gifsArray;
-
 export default {
-  getMessages, setUpdatedMessageArray, emptyMessages, getGifsArray,
+  getMessages, setUpdatedMessageArray, emptyMessages,
 };
