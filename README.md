@@ -1,15 +1,15 @@
 # Sundew Smoozer
 
 ## Description
-Sundew Smoozer is a messaging application that allows the user to select user and send message and add to the conversation. Additional options include deleting messages, setting dark mode, adjusting font-size, clearing all messagesm and validating to ensure a message has been typed.
-This was our second group project and helped us improve our teamwork skills and review all we had learned in our first two milestones in the front-end portion of the bootcamp. 
+Sundew Smoozer is a messaging application. Users can select a user profile, add a message to the conversation, and delete one of their own message. The user’s message gets validated to make sure it includes content; otherwise, the user is prompted with a popup informing him that he needs to add a message to send one. Additional options include clearing all messages, changing the site color theme to a dark mode, and enlarging the font size. This project was an opportunity to hone our skills for working together in the same codebase, ordering tickets as necessary based on dependencies, organizing project files into the appropriate structure following ES6 module setup, introducing SCSS extensions in our code, using jQuery more extensively, and standardizing our code by using ESLint. 
+Project instructions can be found in the Github Project tickets here: https://github.com/nss-evening-cohort-11/chatty-sundews/projects/1.
 
 ## Individual Contribution
 My contributions to this project included:
-* The functionality to add a new message by typing in text and pressing the Enter key only
+* The functionality to add a new message by typing in text and pressing the Enter key
 * Validating that there is text so that blank messages do not get added to the conversation by mistake
-* Adding the modal that gives users the ability to change the color of the font and page display
 * Adding a Clear button to quickly delete all current messages
+* Adding the modal that gives users the ability to change the color of the font and page display
 * Making message cards responsive
 * Filtering access to deleting individual messages so that users can delete only the messages of their selected user
 
@@ -28,12 +28,18 @@ My contributions to this project included:
 ![Validation](src/sundews-img/validation.png)
 
 ## Technologies Used:
-* HTML5, CSS and JavaScript
-* jQuery
-* SASS
 * Bootstrap
+* CSS
+* ES6 Modules
+* ESLint
+* Github
+* HTML5
+* JavaScript
+* jQuery
+* moment.js
+* SASS
 * Webpack
-* ES6 modules
+* 
 
 ## How to Run
 1. Clone down this repo.
